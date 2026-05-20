@@ -1,2 +1,0 @@
-# nm-app
-# app-project

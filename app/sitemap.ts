@@ -1,7 +1,7 @@
 import { MetadataRoute } from "next";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://noha-manqabat.vercel.app";
+  const base = process.env.NEXT_PUBLIC_SITE_URL || "https://nohay.online/";
   return [
     { url: base,              lastModified: new Date(), changeFrequency: "daily",   priority: 1 },
     { url: `${base}/#videos`, lastModified: new Date(), changeFrequency: "daily",   priority: 0.9 },
